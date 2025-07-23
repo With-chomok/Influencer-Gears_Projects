@@ -14,7 +14,7 @@ body {
   display: flex;
 }
 nav {
-  margin: 100px 165px;
+  margin: 20px 165px;
 }
 .nav-bar {
   display: flex;
@@ -149,21 +149,20 @@ a {
 }
 .features-section {
   margin: 100px 190px;
-  
 }
 .features-container {
   display: flex;
-  
+
   gap: 96px;
 }
 .content-title {
   margin: 5px 0;
-  color: #0A0826;
+  color: #0a0826;
   font-weight: bold;
   font-size: 38px;
 }
 .content > p {
-  color: #6C6C6C;
+  color: #6c6c6c;
   font-weight: bold;
 }
 .content {
@@ -173,6 +172,36 @@ a {
   justify-content: center;
 }
 
+/* footer design  */
+
+.footer {
+  max-width: 1440px;
+
+  background-color: #0a0826;
+}
+.footer-container {
+  margin: 0px 589px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+.footer-container p {
+  color: #d9dbe1;
+  margin: 8px;
+}
+.icon-list > img {
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
 /* Responsive design  */
 
 /* responsive for  small device  */
@@ -204,6 +233,7 @@ a {
     flex-direction: column-reverse;
     margin: 0px;
     padding: 10px;
+   
   }
   .journey-Influencer > img {
     background-size: cover;
@@ -247,53 +277,59 @@ a {
     font-size: 15px;
   }
   .see-more,
-a {
-  font-size: 14px;
-  margin:20px;
+  a {
+    font-size: 14px;
+    margin: 10px;
 
-  text-align: end;
-}
-
-/* features section  */
-.features-section {
-  margin: 20px;
-}
-.features-container {
-  flex-direction: column;
-  gap: 30px;
-}
-}
-  /* responsive for tablet  */
-
-  @media screen and (min-width: 576px) and (max-width: 992px) {
-    nav {
-      margin: 50px;
-    }
-    .journey-Influencer {
-      margin: 50px;
-    }
-
-    .journey-Influencer > img {
-      background-size: cover;
-      width: 225px;
-      height: 225px;
-      margin: 15px;
-    }
-    .journey-title {
-      font-size: 30px;
-    }
-    .Influecer-logo {
-      padding: 0px;
-      margin: 0px 20px 0 20px;
-    }
-    .papular-card {
-      margin: 50px 20px;
-    }
-    .card-item {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .features-section {
-  margin: 20px;
-}
+    text-align: end;
   }
 
+  /* features section  */
+  .features-section {
+    margin: 20px;
+  }
+  .features-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-container {
+    margin:0 20px;
+  }
+
+}
+/* responsive for tablet  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    margin: 50px;
+  }
+  .journey-Influencer {
+    margin: 50px;
+  }
+
+  .journey-Influencer > img {
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+    margin: 15px;
+  }
+  .journey-title {
+    font-size: 30px;
+  }
+  .Influecer-logo {
+    padding: 0px;
+    margin: 0px 20px 0 20px;
+  }
+  .papular-card {
+    margin: 50px 20px;
+  }
+  .card-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-section {
+    margin: 20px;
+  }
+  .footer-container {
+    margin: 0px;
+  }
+}
