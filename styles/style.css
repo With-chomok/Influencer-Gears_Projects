@@ -7,7 +7,6 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
-  
 }
 
 /* shared items  */
@@ -15,8 +14,7 @@ body {
   display: flex;
 }
 nav {
- margin: 100px 165px;
-  
+  margin: 100px 165px;
 }
 .nav-bar {
   display: flex;
@@ -24,29 +22,28 @@ nav {
   align-items: center;
   justify-items: center;
   text-align: center;
-
 }
 .nav-title {
   font-size: 24px;
   font-weight: bold;
-  color: #3A3A3A;
+  color: #3a3a3a;
 }
 .list-items {
   display: flex;
   gap: 30px;
 }
-.list-item, a{
+.list-item,
+a {
   list-style: none;
   text-decoration: none;
-  color: #3A3A3A;
+  color: #3a3a3a;
 }
 
 /* journey influencer section  */
 .journey-Influencer {
-  
   display: flex;
-   margin: 120px 165px;
-   /* gap: 16px; */
+  margin: 120px 165px;
+  /* gap: 16px; */
 }
 .journey-content {
   display: flex;
@@ -54,144 +51,213 @@ nav {
   justify-content: center;
   align-items: start;
   gap: 16px;
-  
 }
-.journey-title{
+.journey-title {
   margin: 0;
   font-size: 52px;
   font-weight: bold;
-  color: #3A3A3A;
-
+  color: #3a3a3a;
 }
-.journey-content > p{
-  color:#3A3A3A;
+.journey-content > p {
+  color: #3a3a3a;
 }
 .btn-primary {
-  padding:10px 24px;
+  padding: 10px 24px;
   border-radius: 41px;
-  background-color: #E02C6D;
-  color: #FFFFFF;
+  background-color: #e02c6d;
+  color: #ffffff;
   outline: none;
-  border: none ;
-  font-weight:bold;
+  border: none;
+  font-weight: bold;
   font-size: 16px;
 }
-.journey-Influencer > img{
+.journey-Influencer > img {
   width: 475px;
   height: 475px;
-  background-image: url('../images/circle.svg');
+  background-image: url("../images/circle.svg");
 }
 
 /* logos section  */
 
 .Influecer-logo {
   margin: 100px 165px;
-  
 }
 
-.logo-item img{
+.logo-item img {
   padding: 34px 20px;
   width: 100%;
   /* border: 1px solid red; */
-  justify-items:center;
+  justify-items: center;
   align-items: center;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  
+}
+/* popular items section  */
+
+.papular-card {
+  margin: 100px 196px;
 }
 
+.card-item-title {
+  font-size: 28px;
+  font-size: 700;
+  text-align: center;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+}
+
+.card-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+  text-align: start;
+}
+.card-title {
+  font-size: 28px;
+  margin: 16px 0 6px auto;
+  color: #18191f;
+  font-weight: 600;
+}
+.card-number {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+}
+.card-description {
+  margin: 0 auto;
+  color: #787885;
+}
+.star-img {
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  padding: 17px 15px;
+  background-color: #fff8f8;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.see-more,
+a {
+  font-size: 24px;
+  color: #e02c6d;
+  font-weight: bold;
+  text-align: end;
+}
 
 
 /* Responsive design  */
 
 /* responsive for  small device  */
 
-
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
   nav {
- margin: 30px 20px;
-  
-}
+    margin: 30px 20px;
+  }
   .nav-bar {
-  
-  flex-direction: column;
-  
-}
-.list-items {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-}
-.journey-content {
-  
-  align-items: center;
-  gap: 10px;
-  
-}
-.journey-title{
-  
-  font-size: 32px;
-}
-.journey-Influencer {
-  width:auto;
-  
-  align-items: center;
-  text-align: center;
-  flex-direction: column-reverse;
-  margin: 0px;
-  padding: 10px;
-}
-.journey-Influencer > img{
-  background-size: cover;
-  width: 250px;
-  height: 250px;
-  margin-bottom: 20px;
-  
-}
-
-.Influecer-logo {
-  margin: 30px 50px;
-  
-}
-.logo-item {
-  display: grid;
-  flex-direction: column;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  /* display: flex; */  
-}
-.logo-item img{
-  
-  margin: 5px 0;
- 
-  display: flex;  
-  align-items: center;
-  justify-items: center;
-}
-}
-
-/* responsive for tablet  */
-
-@media screen and (min-width: 576px) and (max-width: 992px){
-  nav {
-    margin: 50px;
+    flex-direction: column;
+  }
+  .list-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  .journey-content {
+    align-items: center;
+    gap: 10px;
+  }
+  .journey-title {
+    font-size: 32px;
   }
   .journey-Influencer {
-    margin: 50px;
+    width: auto;
+
+    align-items: center;
+    text-align: center;
+    flex-direction: column-reverse;
+    margin: 0px;
+    padding: 10px;
+  }
+  .journey-Influencer > img {
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
   }
 
-  .journey-Influencer > img{
-  background-size: cover;
-  width: 225px;
-  height: 225px;
-  margin: 15px;
-  
+  .Influecer-logo {
+    margin: 30px 50px;
+  }
+  .logo-item {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* display: flex; */
+  }
+  .logo-item img {
+    margin: 5px 0;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .papular-card {
+    margin: 30px 20px;
+  }
+  .card-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-title {
+    font-size: 25px;
+  }
+  .card-number {
+    font-size: 20px;
+  }
+  .card-description {
+    font-size: 15px;
+  }
+  .see-more,
+a {
+  font-size: 14px;
+  margin:0 20px 60px 20px;
+
+  text-align: end;
 }
-.journey-title{
-  font-size: 30px;
 }
-.Influecer-logo {
-  padding: 0px;
-  margin: 0px 20px 0 20px;
-}
-}
+  /* responsive for tablet  */
+
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+    nav {
+      margin: 50px;
+    }
+    .journey-Influencer {
+      margin: 50px;
+    }
+
+    .journey-Influencer > img {
+      background-size: cover;
+      width: 225px;
+      height: 225px;
+      margin: 15px;
+    }
+    .journey-title {
+      font-size: 30px;
+    }
+    .Influecer-logo {
+      padding: 0px;
+      margin: 0px 20px 0 20px;
+    }
+    .papular-card {
+      margin: 50px 20px;
+    }
+    .card-item {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
