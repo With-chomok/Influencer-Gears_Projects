@@ -249,9 +249,18 @@ a {
   .see-more,
 a {
   font-size: 14px;
-  margin:0 20px 60px 20px;
+  margin:20px;
 
   text-align: end;
+}
+
+/* features section  */
+.features-section {
+  margin: 20px;
+}
+.features-container {
+  flex-direction: column;
+  gap: 30px;
 }
 }
   /* responsive for tablet  */
@@ -283,5 +292,8 @@ a {
     .card-item {
       grid-template-columns: repeat(2, 1fr);
     }
+    .features-section {
+  margin: 20px;
+}
   }
 
