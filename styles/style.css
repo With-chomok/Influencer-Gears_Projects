@@ -233,7 +233,6 @@ a {
     flex-direction: column-reverse;
     margin: 0px;
     padding: 10px;
-   
   }
   .journey-Influencer > img {
     background-size: cover;
@@ -293,9 +292,8 @@ a {
     gap: 30px;
   }
   .footer-container {
-    margin:0 20px;
+    margin: 0 20px;
   }
-
 }
 /* responsive for tablet  */
 
