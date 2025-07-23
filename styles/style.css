@@ -147,7 +147,31 @@ a {
   font-weight: bold;
   text-align: end;
 }
-
+.features-section {
+  margin: 100px 190px;
+  
+}
+.features-container {
+  display: flex;
+  
+  gap: 96px;
+}
+.content-title {
+  margin: 5px 0;
+  color: #0A0826;
+  font-weight: bold;
+  font-size: 38px;
+}
+.content > p {
+  color: #6C6C6C;
+  font-weight: bold;
+}
+.content {
+  gap: 16px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
 
 /* Responsive design  */
 
